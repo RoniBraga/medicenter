@@ -367,3 +367,70 @@ footer .widget_title_text{
     padding-top: 10px;
     color: #39aae1;
 }
+@media (max-width:768px){
+    header .container .logo{
+        padding: 10px;
+    }
+    header .container .menu a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .banner_headline h1{
+        font-size: 50px;
+       
+    }
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    .banner_headline{
+        padding: 10px;
+    }
+    .banner1,.banner2,.banner3{
+        font-size: 12px;
+    }
+    .widget_title_text{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .widget_title_bar{
+        margin-left: 10px;
+    }
+    .news{
+        padding-left: 10px;
+    }
+    .date_news{
+        font-size: 10px;
+        
+    }
+    .news_thumbnail{
+        width: auto;
+    }
+    .news_title{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .news_resume{
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .widget_body{
+        justify-content: center;
+    }
+    .widget_comunicacao{
+        font-size: 12px;
+    }
+    .title_fm h3{
+        font-size: 15px;
+    }
+    .fm_desc{
+        font-size: 12px;
+    }
+    .widget_footerMsg, 
+    .widget_footerContact,
+    .widget_iconMidias,
+    .title_contact,
+    .footer_copy{
+        padding-left:10px ;
+    }
+    
+}
