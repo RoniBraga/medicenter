@@ -2,23 +2,22 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
+   display: flex;
     flex-direction: column;    
     font-family: Arial, Helvetica, sans-serif;    
+    
 }
 header{
     display: flex;
     justify-content: center;
+    height: 120px;
 }
 
-.container{
-    height: 120px;
+.container{    
     display: flex;
     justify-content: space-between;
     width: 1100px; 
-    
-    
-    
+        
 }
 .container .logo{
     display: flex;
@@ -56,6 +55,7 @@ nav a:hover{
     background-size: cover;
     background-position: center;
     height: 670px;  
+   
    
 }
 .column{
@@ -144,13 +144,14 @@ nav a:hover{
 }
 #geral{
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;    
+ }
 #geral section{
     flex: 2;
+     
 }
 #geral aside{
-    flex: 1;
+    flex: 1;  
 }
 .widget_title{
     margin-top: 30px;
@@ -171,6 +172,9 @@ nav a:hover{
 .widget_body{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
 }
 
 
@@ -182,10 +186,11 @@ nav a:hover{
 .departments6{
    width: 150px;
     height: 150px;
-    background-color: #39aae1;
-    margin-top: 40px;
-   
-    
+    background-color: #39aae1;    
+}
+.departments-margin{
+     margin-top: 40px;
+     margin-bottom: 20px;
 }
 .widget_comunicacao{
     display: flex;
@@ -194,10 +199,171 @@ nav a:hover{
 .widget_desc, .widget_contato, .widget_saudacao{
     border-bottom: 1px solid #8f83832d;
     display: flex;
+    padding-bottom: 10px;
+    
+}
+
+.widget_contato img, .widget_saudacao img{
+    width: 20px;
+    height: 20px;
+    padding: 15px;
 }
 .phone_contato{
     font-weight: bold;
 }
 .email-contato{
+    color: #39aae1;
+}
+article{
+    display: flex;
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+article a{
+    text-decoration: none;
+}
+.news{
+    display: flex;
+       
+}
+.date_news,
+.comments_news{
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+.comments_news{
+    background-color: #39aae1;
+}
+.date_news{
+    background-color: #2b4c99;
+    margin-right: 2px;
+}
+.news_thumbnail{
+    margin-top: 30px;
+}
+.news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+.news_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+.news_resume{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+   display: flex;
+   justify-content: center;
+   background-color: #1e1e1e;
+   
+.footer_menu{
+    display: flex;
+    flex: 1;
+}
+.fm_1,.fm_2,.fm_3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+}
+.fm_1{
+    background-color: #39aae1;
+    height: inherit;
+}
+.fm_2{
+    background-color: #0079c7;
+     height: inherit;
+}
+.fm_3{
+    background-color: #2b4c99;
+     height: inherit;
+}
+.footer_area{
+    display: flex;
+    
+}
+.footer_areaitem{
+    flex: 1;
+    color: #fff;
+}
+.flexColumn{
+    flex-direction: column;
+}
+footer .widget_title_text{
+    color: #fff;
+}
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.widget_footerContact,.widget_footerMsg{
+    display: flex;   
+    font-size: 12px;
+    color: #5c5c5c;
+    
+}
+.title_contact{
+    font-size: 12px;
+    color: #5c5c5c;
+    padding-top: 20px;
+}
+.mail_dest{
+    color: #fff;
+}
+.footerContact1,
+.footerContact2,
+.footerContact3{
+    display: flex;
+    justify-content: space-between; 
+    padding-right: 20px;
+     line-height: 15px;
+    
+}
+.widget_iconMidias img{
+    width: 20px;
+    height: 20px;
+    background-color: #727272;
+    margin-top: 30px;
+}
+
+.post1,
+.post2,
+.post3{
+    padding-bottom: 15px;
+    padding-right: 10px;
+    font-size: 12px;
+     line-height: 15px;
+}
+.post_data{
+    color: #39aae1;
+    padding-top: 5px;
+}
+.tweets1,
+.tweets2,
+.tweets3{
+    font-size: 12px;
+    padding-bottom: 15px;
+    color: #727272;
+    line-height: 15px;
+}
+.tweets_data{
+    padding-top: 10px;
     color: #39aae1;
 }
