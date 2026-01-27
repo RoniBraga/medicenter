@@ -87,11 +87,11 @@ nav a:hover{
      max-width: 350px;
      margin-top: 30px;
 }
-.banner_options{
-    flex: 1;
-    height: 210px;
+.banner_options{    
     display: flex;
-     align-items: flex-end;
+    background-color: #000;
+    
+    
    
 }
 .banner1,
@@ -99,20 +99,21 @@ nav a:hover{
 .banner3{
     flex: 1;
     color: #fff;
+    height: 210px;
     padding: 20px;
     font-size: 20px;
 }
 .banner1{
     background-color: #39aae1;
-    height: inherit;
+    
 }
 .banner2{
     background-color: #0079c7;
-     height: inherit;
+     
 }
 .banner3{
     background-color: #2b4c99;
-     height: inherit;
+    
 }
 .banner_desc p{
     font-size: 15px;
@@ -268,7 +269,7 @@ footer{
    display: flex;
    justify-content: center;
    background-color: #1e1e1e;
-   
+}
 .footer_menu{
     display: flex;
     flex: 1;
@@ -278,7 +279,7 @@ footer{
     color: #fff;
     padding: 20px;
 }
-}
+
 .fm_1{
     background-color: #39aae1;
     height: inherit;
@@ -367,6 +368,19 @@ footer .widget_title_text{
     padding-top: 10px;
     color: #39aae1;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    margin-right: 20px;
+}
+.mm_line{
+    background-color: #39aae1;
+    height: 3px;
+}
 @media (max-width:768px){
     header .container .logo{
         padding: 10px;
@@ -433,4 +447,34 @@ footer .widget_title_text{
         padding-left:10px ;
     }
     
+}
+@media (max-width: 600px){
+   
+   
+    .banner_options{
+        flex-direction: column;    
+        height: auto;
+        font-size: 12px;
+    }
+    #banner{
+        height: auto;
+    }
+    #geral .container,.footer_menu, .footer_area{
+        flex-direction: column;
+       padding: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+    header{
+        height: auto;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+   
 }
